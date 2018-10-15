@@ -399,9 +399,8 @@ calculated with <em class="xref py py-obj">mpcalc.montgomery_streamfunction</em>
          <span class="n">regrid_shape</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">transform</span><span class="o">=</span><span class="n">ccrs</span><span class="o">.</span><span class="n">PlateCarree</span><span class="p">())</span>
 
 <span class="c1"># Make some titles</span>
-<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;{:.0f} K Montgomery Streamfunction &#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">isentlevs</span><span class="p">[</span><span class="n">level</span><span class="p">]</span><span class="o">.</span><span class="n">m</span><span class="p">)</span> <span class="o">+</span>
-             <span class="sa">r</span><span class="s1">&#39;($10^{-2} m^2 s^{-2}$), &#39;</span> <span class="o">+</span>
-             <span class="s1">&#39;Wind (kt), Relative Humidity (percent)&#39;</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_title</span><span class="p">(</span><span class="s1">&#39;{:.0f} K Montgomery Streamfunction &#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">isentlevs</span><span class="p">[</span><span class="n">level</span><span class="p">]</span><span class="o">.</span><span class="n">m</span><span class="p">)</span>
+             <span class="o">+</span> <span class="sa">r</span><span class="s1">&#39;($10^{-2} m^2 s^{-2}$), Wind (kt), Relative Humidity (percent)&#39;</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="s1">&#39;left&#39;</span><span class="p">)</span>
 <a href="../api/generated/metpy.plots.add_timestamp.html#metpy.plots.add_timestamp" title="View documentation for metpy.plots.add_timestamp"><span class="n">add_timestamp</span></a><span class="p">(</span><span class="n">ax</span><span class="p">,</span> <span class="n">times</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="mf">0.02</span><span class="p">,</span> <span class="n">pretext</span><span class="o">=</span><span class="s1">&#39;Valid: &#39;</span><span class="p">,</span> <span class="n">high_contrast</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
 
 <span class="n">fig</span><span class="o">.</span><span class="n">tight_layout</span><span class="p">()</span>
@@ -409,7 +408,7 @@ calculated with <em class="xref py py-obj">mpcalc.montgomery_streamfunction</em>
 </pre></div>
 </div>
 <img alt="../_images/sphx_glr_isentropic_example_002.png" class="sphx-glr-single-img" src="../_images/sphx_glr_isentropic_example_002.png" />
-<p><strong>Total running time of the script:</strong> ( 0 minutes  18.677 seconds)</p>
+<p><strong>Total running time of the script:</strong> ( 0 minutes  21.290 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-isentropic-example-py">
 <div class="sphx-glr-download docutils container">
 <a class="reference download internal" download="" href="../_downloads/8591910a2b42dadcf3b05658ddd9c600/isentropic_example.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">isentropic_example.py</span></code></a></div>
@@ -442,7 +441,7 @@ calculated with <em class="xref py py-obj">mpcalc.montgomery_streamfunction</em>
   <div role="contentinfo">
     <p>
         &copy; Copyright 2017, MetPy Developers.
-      Last updated on Sep 29, 2018 at 16:53:09.
+      Last updated on Oct 15, 2018 at 20:53:15.
 
     </p>
   </div>
@@ -479,7 +478,7 @@ calculated with <em class="xref py py-obj">mpcalc.montgomery_streamfunction</em>
     <script type="text/javascript">
         var DOCUMENTATION_OPTIONS = {
             URL_ROOT:'../',
-            VERSION:'0.9.1+9.gd0d44e8',
+            VERSION:'0.9.1+27.gdc12e34',
             LANGUAGE:'None',
             COLLAPSE_INDEX:false,
             FILE_SUFFIX:'.html',
